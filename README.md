@@ -1,48 +1,23 @@
-# Server
-try to all of the server
+## RESTful API using MongoDB & Mongoose & Express
+VELOPERT 블로그에 작성한 강좌에 사용된 프로젝트 입니다.  
+MongoDB, Mongoose 와 Express 를 사용하여 간단한 RESTful API 를 구현합니다.  
 
 
+```
+$ npm install
+$ node app.js
+```
 
+### API 목록
+| ROUTE                     | METHOD | DESCRIPTION               |
+|---------------------------|--------|---------------------------|
+| /api/books                | GET    | 모든 book 데이터 조회     |
+| /api/books/:book_id       | GET    | _id 값으로 데이터 조회    |
+| /api/books/author/:author | GET    | author 값으로 데이터 조회 |
+| /api/books                | POST   | book 데이터 생성          |
+| /api/books/:book_id       | PUT    | book 데이터 수정          |
+| /api/books/:book_id       | DELETE | book 데이터 제거          |
 
+링크: https://velopert.com/594
 
-develop preparation
-1st. install node.js
-// https://nodejs.org/ko/download/
-
-2st. install mongodb
-// download taz file, cd download file decompresion and cd this directory, tar -zxvf mongodb-macos-x86_64-4.2.1.tgz <-- file name.tgz , sudo cp ./bin/* /usr/local/bin
-
-3st. mongodb excute
-// command 'mongod --dbpath /storage address', MongoDB Shell enter command 'mongo'
-
-4st. create project
-// npm init --> product 'package.json'
-
-5st. package install
-// npm install --save express mongoose body-parser
- 5-1) express: web framework
- 5-2) body-parser: data process middleware
- 5-3) mongoose: MongoDB interlock library
- 
- 
-Directory architecture
-- models/
------ book.js
-- node_modules/
-- routes
------ index.js
-- app.js
-- package.json
-
-
-Create webServer use Express
-- API list
-ROUTE	METHOD	DESCRIPTION
-- api/books	                 |GET	  |    all of book data read
-- api/books/:book_id	        |GET	  |     _id value to data read
-- api/books/author/:author	  |GET	  |    author value to data read 
-- api/books	                 |POST  |  	book data create
-- api/books/:book_id	        |PUT   | 	book data update
-- api/books/:book_id	        |DELETE|	  book data remove
-
-
+psuh
