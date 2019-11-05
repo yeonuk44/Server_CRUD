@@ -38,11 +38,11 @@ Directory architecture
 Create webServer use Express
 - API list
 ROUTE	METHOD	DESCRIPTION
-/api/books	                GET	      all of book data read
-/api/books/:book_id	        GET	       _id value to data read
-/api/books/author/:author	  GET	      author value to data read 
-/api/books	                POST    	book data create
-/api/books/:book_id	        PUT     	book data update
-/api/books/:book_id	        DELETE	  book data remove
+-api/books	                GET	      all of book data read
+-api/books/:book_id	        GET	       _id value to data read
+-api/books/author/:author	  GET	      author value to data read 
+-api/books	                POST    	book data create
+-api/books/:book_id	        PUT     	book data update
+-api/books/:book_id	        DELETE	  book data remove
 
 
