@@ -21,10 +21,9 @@ MongoDB, Mongoose 와 Express 를 사용하여 간단한 RESTful API 를 구현�
  
  ### 실행 법
  1-1) 서버와 DB 연동하기
-  1. mongod
-  2. mongod --dbpath 파일 경로
-  3. mongo
-  4. node 서버 실행 파일 확장자까지 입력
+  1. mongod --dbpath 파일 경로
+  2. mongo
+  3. node 서버 실행 파일 확장자까지 입력
   
  local host adress 설정한대로
  POST | http://localhost:8080/api/books/
