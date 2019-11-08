@@ -5,7 +5,7 @@ MongoDB, Mongoose 와 Express 를 사용하여 간단한 RESTful API 를 구현�
  
  
  해야 할 일
- # 1. 프로젝트 생성 및 패키지 설치
+ ### 1. 프로젝트 생성 및 패키지 설치
  1-1) 프로젝트 생성
  npm init 을 통해 package.json 생성하기 설정 값은 default 값으로 하면 됨
  $ npm init
@@ -19,7 +19,7 @@ MongoDB, Mongoose 와 Express 를 사용하여 간단한 RESTful API 를 구현�
  
  명령어 입력 시 자동으로 패키지 설치하고, package.json 파일에 패키지 리스트를 추가한다.
  
- # 실행 법
+ ### 실행 법
  1-1) 서버와 DB 연동하기
   1. mongod
   2. mongod --dbpath 파일 경로
