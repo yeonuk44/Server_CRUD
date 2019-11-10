@@ -32,6 +32,11 @@ MongoDB, Mongoose 와 Express 를 사용하여 간단한 RESTful API 를 구현�
 ... (API 목록 참고)
  
  
+ ## login directory
+ 개발 환경 동일
+ id, password 입력 시 
+ 입력사항 출력 시키는 html 가시화
+ password type 'text' 가 아닌 password 사용시 쿠기 저장 됨
 
 
 ```
