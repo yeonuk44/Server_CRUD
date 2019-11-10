@@ -37,12 +37,8 @@ MongoDB, Mongoose 와 Express 를 사용하여 간단한 RESTful API 를 구현�
  id, password 입력 시 
  입력사항 출력 시키는 html 가시화
  password type 'text' 가 아닌 password 사용시 쿠기 저장 됨
-
-
-```
-$ npm install
-$ node app.js
-```
+ 
+ 
 
 ### API 목록
 | ROUTE                     | METHOD | DESCRIPTION               |
