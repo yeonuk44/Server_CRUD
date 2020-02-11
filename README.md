@@ -51,5 +51,3 @@ MongoDB, Mongoose 와 Express 를 사용하여 간단한 RESTful API 를 구현�
 | /api/books/:book_id       | DELETE | book 데이터 제거          |
 
 링크: https://velopert.com/594
-
-psuh
